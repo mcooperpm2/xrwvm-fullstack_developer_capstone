@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Best Cars</title>
+
+    <!-- Link the style sheets here -->
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .contact-container {
+            width: 80%;
+            margin: 50px auto;
+        }
+
+        .contact-card {
+            padding: 35px;
+            border-radius: 12px;
+        }
+
+        .contact-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .contact-header h1 {
+            margin-bottom: 10px;
+        }
+
+        .contact-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 20px;
+        }
+
+        .contact-section {
+            padding: 20px;
+            border: 1px solid #dddddd;
+            border-radius: 8px;
+            background-color: white;
+        }
+
+        .contact-section h3 {
+            color: #087f8c;
+            margin-bottom: 15px;
+        }
+
+        .contact-section p {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light"
+         style="background-color: darkturquoise; height: 1in;">
+
+        <div class="container-fluid">
+
+            <h2 style="padding-right: 5%;">Dealerships</h2>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarText"
+                    aria-controls="navbarText"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarText">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           style="font-size: larger;"
+                           href="/">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           style="font-size: larger;"
+                           href="/about/">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           style="font-size: larger;"
+                           aria-current="page"
+                           href="/contact/">
+                            Contact Us
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact page content -->
+    <main class="contact-container">
+
+        <div class="card contact-card">
+
+            <div class="contact-header">
+                <h1>Contact Us</h1>
+
+                <p>
+                    Our team is available to answer questions about our
+                    vehicles, dealerships, financing options, and customer
+                    service.
+                </p>
+            </div>
+
+            <div class="contact-details">
+
+                <section class="contact-section">
+                    <h3>Customer Service</h3>
+
+                    <p>
+                        <strong>Email:</strong>
+                        <a href="mailto:support@bestcars.com">
+                            support@bestcars.com
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>Phone:</strong>
+                        <a href="tel:+18005550100">
+                            1-800-555-0100
+                        </a>
+                    </p>
+                </section>
+
+                <section class="contact-section">
+                    <h3>Dealership Office</h3>
+
+                    <p>123 Best Cars Drive</p>
+                    <p>Atlanta, Georgia 30303</p>
+                    <p>United States</p>
+                </section>
+
+                <section class="contact-section">
+                    <h3>Business Hours</h3>
+
+                    <p><strong>Monday–Friday:</strong> 8:00 AM–7:00 PM</p>
+                    <p><strong>Saturday:</strong> 9:00 AM–5:00 PM</p>
+                    <p><strong>Sunday:</strong> Closed</p>
+                </section>
+
+            </div>
+        </div>
+
+    </main>
+
+</body>
+</html>
